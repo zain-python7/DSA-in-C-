@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    // 1D ARRAY 
+    // ***********1D ARRAY ***********
     int size1D;
     cout << "Enter the size of the 1D array: ";
     cin >> size1D;
@@ -22,7 +22,7 @@ int main() {
 
     delete[] arr1D;  // Free memory for 1D array
 
-    //  2D ARRAY
+    // *************** 2D ARRAY **************
     int r2D, c2D;
     cout << "Enter number of rows and columns for 2D array: ";
     cin >> r2D >> c2D;
@@ -53,7 +53,7 @@ int main() {
     }
     delete[] arr2D;  // Free memory for 2D array
 
-    // 3D ARRAY 
+    //  ******************3D ARRAY ***************
     int r3D, c3D, d3D;
     cout << "Enter number of rows, columns, and depth for 3D array: ";
     cin >> r3D >> c3D >> d3D;
